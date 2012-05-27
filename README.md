@@ -14,3 +14,9 @@ configuration file so i can focus mainly on just looking at java classes.
 TODO:
 1. add a user login interface.
 2. interface to upload a csv file then display the content in tabular form.
+
+Setup debug using Tomcat:
+REM Default is 8000
+#export JPDA_ADDRESS=5050
+
+$ apache-tomcat-7.0.26/bin/catalina.sh jpda run
