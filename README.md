@@ -18,5 +18,5 @@ TODO:
 How to enable debug using Tomcat
 ================================
 Default 
-$ export JPDA_ADDRESS=8000.
-$ apache-tomcat-7.0.26/bin/catalina.sh jpda run.
+1. $ export JPDA_ADDRESS=8000
+2. $ apache-tomcat-7.0.26/bin/catalina.sh jpda run
