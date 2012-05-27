@@ -15,8 +15,8 @@ TODO:
 1. add a user login interface.
 2. interface to upload a csv file then display the content in tabular form.
 
-Setup debug using Tomcat:
-REM Default is 8000
-#export JPDA_ADDRESS=5050
-
+Enable debug in Tomcat
+========================
+Default 
+$ export JPDA_ADDRESS=8000
 $ apache-tomcat-7.0.26/bin/catalina.sh jpda run
